@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   get: ^4.6.6
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
@@ -53,6 +54,49 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  fonts:
+    - family: PBold
+      fonts:
+        - asset: fonts/PBold.ttf
+    - family: PMedium
+      fonts:
+        - asset: fonts/PMedium.ttf
+    - family: PRegular
+      fonts:
+        - asset: fonts/PRegular.ttf
+    - family: PSemiBold
+      fonts:
+        - asset: fonts/PSemiBold.ttf
+    - family: RBold
+      fonts:
+        - asset: fonts/RBold.ttf
+    - family: RMedium
+      fonts:
+        - asset: fonts/RMedium.ttf
+    - family: RRegular
+      fonts:
+        - asset: fonts/RRegular.ttf
+    - family: IndoPak
+      fonts:
+        - asset: fonts/IndoPak.woff
+    - family: NotoNastaliqUrdu
+      fonts:
+        - asset: fonts/NotoNastaliqUrdu-Bold.ttf
+        - asset: fonts/NotoNastaliqUrdu-Medium.ttf
+        - asset: fonts/NotoNastaliqUrdu-Regular.ttf
+        - asset: fonts/NotoNastaliqUrdu-SemiBold.ttf
+    - family: NewArabic
+      fonts:
+        - asset: fonts/NewArabic.ttf
+    - family: AlQalam
+      fonts:
+        - asset: fonts/AlQalam.ttf
+    - family: Uthmanic
+      fonts:
+        - asset: fonts/Uthmanic.otf
+    - family: Uthman
+      fonts:
+        - asset: fonts/Uthman.ttf
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

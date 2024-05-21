@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() async{
 
@@ -24,9 +25,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
        body: Container(
+
          child:
-         Text('waqas'),
+         Center(child: Text('waqas',style: GoogleFonts.abhayaLibre(),)),
        ),
+
 
 
       ),
